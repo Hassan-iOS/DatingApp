@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FiraSans-Regular.ttf">
+            <string>FiraSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="InterestsTableViewCell" rowHeight="119" id="KGk-i7-Jjw" customClass="InterestsTableViewCell" customModule="DatingApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="329" height="119"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="329" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZQP-Ta-647">
+                        <rect key="frame" x="0.0" y="0.0" width="329" height="119"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Her Interests" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KRe-F5-4UM">
+                                <rect key="frame" x="20" y="20" width="117" height="24"/>
+                                <fontDescription key="fontDescription" name="FiraSans-Regular" family="Fira Sans" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="qQU-TH-ewk">
+                                <rect key="frame" x="20" y="52" width="289" height="59"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CfF-KS-cTk">
+                                        <rect key="frame" x="0.0" y="0.0" width="93" height="59"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Women" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rkg-C5-fjX">
+                                                <rect key="frame" x="12.5" y="17.5" width="68" height="24"/>
+                                                <fontDescription key="fontDescription" name="FiraSans-Regular" family="Fira Sans" pointSize="20"/>
+                                                <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="rkg-C5-fjX" firstAttribute="centerX" secondItem="CfF-KS-cTk" secondAttribute="centerX" id="0JD-zk-jC9"/>
+                                            <constraint firstItem="rkg-C5-fjX" firstAttribute="centerY" secondItem="CfF-KS-cTk" secondAttribute="centerY" id="OnE-e3-lmC"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yLh-m0-4iP">
+                                        <rect key="frame" x="98" y="0.0" width="93" height="59"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Men" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yir-uZ-OLw">
+                                                <rect key="frame" x="27.5" y="17.5" width="38.5" height="24"/>
+                                                <fontDescription key="fontDescription" name="FiraSans-Regular" family="Fira Sans" pointSize="20"/>
+                                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="Yir-uZ-OLw" firstAttribute="centerX" secondItem="yLh-m0-4iP" secondAttribute="centerX" id="4iu-hf-Tf8"/>
+                                            <constraint firstItem="Yir-uZ-OLw" firstAttribute="centerY" secondItem="yLh-m0-4iP" secondAttribute="centerY" id="YWY-o3-O6E"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JQV-uI-Pyd">
+                                        <rect key="frame" x="196" y="0.0" width="93" height="59"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From 22 to 40" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBb-ab-HMS">
+                                                <rect key="frame" x="5" y="21.5" width="83" height="16"/>
+                                                <fontDescription key="fontDescription" name="FiraSans-Regular" family="Fira Sans" pointSize="13"/>
+                                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="ZBb-ab-HMS" firstAttribute="centerY" secondItem="JQV-uI-Pyd" secondAttribute="centerY" id="5La-pQ-l4R"/>
+                                            <constraint firstItem="ZBb-ab-HMS" firstAttribute="centerX" secondItem="JQV-uI-Pyd" secondAttribute="centerX" id="Adh-6v-TBC"/>
+                                            <constraint firstItem="ZBb-ab-HMS" firstAttribute="leading" secondItem="JQV-uI-Pyd" secondAttribute="leading" constant="5" id="noY-Iq-Nc3"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="nNq-LU-E2U"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="qQU-TH-ewk" secondAttribute="bottom" constant="8" id="DIk-JW-LHw"/>
+                            <constraint firstItem="qQU-TH-ewk" firstAttribute="leading" secondItem="KRe-F5-4UM" secondAttribute="leading" id="Ffp-TJ-VKn"/>
+                            <constraint firstItem="KRe-F5-4UM" firstAttribute="top" secondItem="ZQP-Ta-647" secondAttribute="top" constant="20" id="Ics-fL-UY6"/>
+                            <constraint firstAttribute="trailing" secondItem="qQU-TH-ewk" secondAttribute="trailing" constant="20" id="XGh-1r-e4S"/>
+                            <constraint firstItem="KRe-F5-4UM" firstAttribute="leading" secondItem="ZQP-Ta-647" secondAttribute="leading" constant="20" id="lop-QW-3hS"/>
+                            <constraint firstItem="qQU-TH-ewk" firstAttribute="top" secondItem="KRe-F5-4UM" secondAttribute="bottom" constant="8" id="qvS-kG-roe"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="ZQP-Ta-647" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Nta-dT-Ct7"/>
+                    <constraint firstItem="ZQP-Ta-647" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="dSj-vC-VoW"/>
+                    <constraint firstItem="ZQP-Ta-647" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="dhX-Zw-36C"/>
+                    <constraint firstItem="ZQP-Ta-647" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" id="vQC-s9-2sQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ageView" destination="JQV-uI-Pyd" id="8hK-tc-5LX"/>
+                <outlet property="containerView" destination="ZQP-Ta-647" id="ldH-H6-56Z"/>
+                <outlet property="manView" destination="yLh-m0-4iP" id="tv5-L3-EGZ"/>
+                <outlet property="womenView" destination="CfF-KS-cTk" id="cA5-GW-qOC"/>
+            </connections>
+            <point key="canvasLocation" x="144.20289855072465" y="106.80803571428571"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C7D20BE2386ACE9005318B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C7D20BD2386ACE9005318B1 /* Main.storyboard */; };
+		5C8F78522388594D00FC70EE /* PaytoneOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F78422388594D00FC70EE /* PaytoneOne-Regular.ttf */; };
+		5C8F78532388594D00FC70EE /* FiraSansCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F78442388594D00FC70EE /* FiraSansCondensed-Regular.ttf */; };
+		5C8F78542388594D00FC70EE /* FiraSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F78452388594D00FC70EE /* FiraSans-Medium.ttf */; };
+		5C8F78552388594D00FC70EE /* FiraSansCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F78462388594D00FC70EE /* FiraSansCondensed-Medium.ttf */; };
+		5C8F78562388594D00FC70EE /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F78472388594D00FC70EE /* Nunito-ExtraBold.ttf */; };
+		5C8F78572388594D00FC70EE /* FiraSansCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F78482388594D00FC70EE /* FiraSansCondensed-Bold.ttf */; };
+		5C8F78582388594D00FC70EE /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F78492388594D00FC70EE /* Nunito-Regular.ttf */; };
+		5C8F78592388594D00FC70EE /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F784A2388594D00FC70EE /* Nunito-SemiBold.ttf */; };
+		5C8F785A2388594D00FC70EE /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F784B2388594D00FC70EE /* Nunito-Bold.ttf */; };
+		5C8F785B2388594D00FC70EE /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F784C2388594D00FC70EE /* Nunito-Black.ttf */; };
+		5C8F785C2388594D00FC70EE /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F784D2388594D00FC70EE /* Nunito-SemiBoldItalic.ttf */; };
+		5C8F785D2388594D00FC70EE /* FiraSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F784E2388594D00FC70EE /* FiraSans-SemiBold.ttf */; };
+		5C8F785E2388594D00FC70EE /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F784F2388594D00FC70EE /* Nunito-Italic.ttf */; };
+		5C8F785F2388594D00FC70EE /* FiraSansExtraCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F78502388594D00FC70EE /* FiraSansExtraCondensed-Regular.ttf */; };
+		5C8F78602388594D00FC70EE /* FiraSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F78512388594D00FC70EE /* FiraSans-Regular.ttf */; };
+		5C8F7863238867E100FC70EE /* AboutHerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F7861238867E100FC70EE /* AboutHerTableViewCell.swift */; };
+		5C8F7864238867E100FC70EE /* AboutHerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F7862238867E100FC70EE /* AboutHerTableViewCell.xib */; };
+		5C8F786723886B6700FC70EE /* InterestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F786523886B6700FC70EE /* InterestsTableViewCell.swift */; };
+		5C8F786823886B6700FC70EE /* InterestsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C8F786623886B6700FC70EE /* InterestsTableViewCell.xib */; };
+		5C8F786A23886D6D00FC70EE /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F786923886D6D00FC70EE /* CustomView.swift */; };
+		5CF12A052386AB5300B2A09F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF12A042386AB5300B2A09F /* AppDelegate.swift */; };
+		5CF12A072386AB5300B2A09F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF12A062386AB5300B2A09F /* SceneDelegate.swift */; };
+		5CF12A092386AB5300B2A09F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF12A082386AB5300B2A09F /* HomeViewController.swift */; };
+		5CF12A0E2386AB5400B2A09F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF12A0D2386AB5400B2A09F /* Assets.xcassets */; };
+		5CF12A112386AB5400B2A09F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF12A0F2386AB5400B2A09F /* LaunchScreen.storyboard */; };
+		63954E3930898BC93828F163 /* Pods_DatingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB82DDA5291E2568F4ED683D /* Pods_DatingApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C7D20BD2386ACE9005318B1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5C8F78422388594D00FC70EE /* PaytoneOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PaytoneOne-Regular.ttf"; sourceTree = "<group>"; };
+		5C8F78442388594D00FC70EE /* FiraSansCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSansCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		5C8F78452388594D00FC70EE /* FiraSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Medium.ttf"; sourceTree = "<group>"; };
+		5C8F78462388594D00FC70EE /* FiraSansCondensed-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSansCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		5C8F78472388594D00FC70EE /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		5C8F78482388594D00FC70EE /* FiraSansCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSansCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		5C8F78492388594D00FC70EE /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		5C8F784A2388594D00FC70EE /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		5C8F784B2388594D00FC70EE /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		5C8F784C2388594D00FC70EE /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		5C8F784D2388594D00FC70EE /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		5C8F784E2388594D00FC70EE /* FiraSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		5C8F784F2388594D00FC70EE /* Nunito-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		5C8F78502388594D00FC70EE /* FiraSansExtraCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSansExtraCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		5C8F78512388594D00FC70EE /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.ttf"; sourceTree = "<group>"; };
+		5C8F7861238867E100FC70EE /* AboutHerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutHerTableViewCell.swift; sourceTree = "<group>"; };
+		5C8F7862238867E100FC70EE /* AboutHerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutHerTableViewCell.xib; sourceTree = "<group>"; };
+		5C8F786523886B6700FC70EE /* InterestsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestsTableViewCell.swift; sourceTree = "<group>"; };
+		5C8F786623886B6700FC70EE /* InterestsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InterestsTableViewCell.xib; sourceTree = "<group>"; };
+		5C8F786923886D6D00FC70EE /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		5CF12A012386AB5300B2A09F /* DatingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF12A042386AB5300B2A09F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		5CF12A062386AB5300B2A09F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
+		5CF12A082386AB5300B2A09F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
+		5CF12A0D2386AB5400B2A09F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CF12A102386AB5400B2A09F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CF12A122386AB5400B2A09F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57B23DD1A4D07D4E8EC0F0C /* Pods-DatingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingApp.release.xcconfig"; path = "Target Support Files/Pods-DatingApp/Pods-DatingApp.release.xcconfig"; sourceTree = "<group>"; };
+		BB82DDA5291E2568F4ED683D /* Pods_DatingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4651CE539B2C33C7E09462 /* Pods-DatingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingApp.debug.xcconfig"; path = "Target Support Files/Pods-DatingApp/Pods-DatingApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CF129FE2386AB5300B2A09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63954E3930898BC93828F163 /* Pods_DatingApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C8F78432388594D00FC70EE /* Fira Sans */ = {
+			isa = PBXGroup;
+			children = (
+				5C8F78442388594D00FC70EE /* FiraSansCondensed-Regular.ttf */,
+				5C8F78452388594D00FC70EE /* FiraSans-Medium.ttf */,
+				5C8F78462388594D00FC70EE /* FiraSansCondensed-Medium.ttf */,
+				5C8F78472388594D00FC70EE /* Nunito-ExtraBold.ttf */,
+				5C8F78482388594D00FC70EE /* FiraSansCondensed-Bold.ttf */,
+				5C8F784E2388594D00FC70EE /* FiraSans-SemiBold.ttf */,
+				5C8F78502388594D00FC70EE /* FiraSansExtraCondensed-Regular.ttf */,
+				5C8F78512388594D00FC70EE /* FiraSans-Regular.ttf */,
+				5C8F78492388594D00FC70EE /* Nunito-Regular.ttf */,
+				5C8F784A2388594D00FC70EE /* Nunito-SemiBold.ttf */,
+				5C8F784B2388594D00FC70EE /* Nunito-Bold.ttf */,
+				5C8F784C2388594D00FC70EE /* Nunito-Black.ttf */,
+				5C8F784D2388594D00FC70EE /* Nunito-SemiBoldItalic.ttf */,
+				5C8F784F2388594D00FC70EE /* Nunito-Italic.ttf */,
+				5C8F78422388594D00FC70EE /* PaytoneOne-Regular.ttf */,
+			);
+			path = "Fira Sans";
+			sourceTree = "<group>";
+		};
+		5CF129F82386AB5200B2A09F = {
+			isa = PBXGroup;
+			children = (
+				5CF12A032386AB5300B2A09F /* DatingApp */,
+				5CF12A022386AB5300B2A09F /* Products */,
+				968584250B43F204AF844D81 /* Pods */,
+				844F7799695AF2D546F8AC91 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5CF12A022386AB5300B2A09F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CF12A012386AB5300B2A09F /* DatingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CF12A032386AB5300B2A09F /* DatingApp */ = {
+			isa = PBXGroup;
+			children = (
+				5CF12A1A2386AC1E00B2A09F /* Controller */,
+				5CF12A192386AC1700B2A09F /* View */,
+				5CF12A182386AC1100B2A09F /* Model */,
+				5CF12A1B2386AC2F00B2A09F /* SupportingFiles */,
+				5CF12A1C2386AC5F00B2A09F /* Utilities */,
+				5CF12A0F2386AB5400B2A09F /* LaunchScreen.storyboard */,
+			);
+			path = DatingApp;
+			sourceTree = "<group>";
+		};
+		5CF12A182386AC1100B2A09F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CF12A192386AC1700B2A09F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C8F7861238867E100FC70EE /* AboutHerTableViewCell.swift */,
+				5C8F7862238867E100FC70EE /* AboutHerTableViewCell.xib */,
+				5C8F786523886B6700FC70EE /* InterestsTableViewCell.swift */,
+				5C8F786623886B6700FC70EE /* InterestsTableViewCell.xib */,
+				5C8F786923886D6D00FC70EE /* CustomView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CF12A1A2386AC1E00B2A09F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CF12A082386AB5300B2A09F /* HomeViewController.swift */,
+				5C7D20BD2386ACE9005318B1 /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CF12A1B2386AC2F00B2A09F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5CF12A042386AB5300B2A09F /* AppDelegate.swift */,
+				5CF12A062386AB5300B2A09F /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		5CF12A1C2386AC5F00B2A09F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5C8F78432388594D00FC70EE /* Fira Sans */,
+				5CF12A0D2386AB5400B2A09F /* Assets.xcassets */,
+				5CF12A122386AB5400B2A09F /* Info.plist */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		844F7799695AF2D546F8AC91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB82DDA5291E2568F4ED683D /* Pods_DatingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		968584250B43F204AF844D81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC4651CE539B2C33C7E09462 /* Pods-DatingApp.debug.xcconfig */,
+				B57B23DD1A4D07D4E8EC0F0C /* Pods-DatingApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CF12A002386AB5300B2A09F /* DatingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF12A152386AB5400B2A09F /* Build configuration list for PBXNativeTarget "DatingApp" */;
+			buildPhases = (
+				53E44F3E0BB52BB22DDE386A /* [CP] Check Pods Manifest.lock */,
+				5CF129FD2386AB5300B2A09F /* Sources */,
+				5CF129FE2386AB5300B2A09F /* Frameworks */,
+				5CF129FF2386AB5300B2A09F /* Resources */,
+				4500E4AA2F0EC990A8DA3877 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatingApp;
+			productName = DatingApp;
+			productReference = 5CF12A012386AB5300B2A09F /* DatingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CF129F92386AB5200B2A09F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Hassan;
+				TargetAttributes = {
+					5CF12A002386AB5300B2A09F = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 5CF129FC2386AB5200B2A09F /* Build configuration list for PBXProject "DatingApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CF129F82386AB5200B2A09F;
+			productRefGroup = 5CF12A022386AB5300B2A09F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CF12A002386AB5300B2A09F /* DatingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CF129FF2386AB5300B2A09F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8F78582388594D00FC70EE /* Nunito-Regular.ttf in Resources */,
+				5CF12A112386AB5400B2A09F /* LaunchScreen.storyboard in Resources */,
+				5C8F78552388594D00FC70EE /* FiraSansCondensed-Medium.ttf in Resources */,
+				5C8F78572388594D00FC70EE /* FiraSansCondensed-Bold.ttf in Resources */,
+				5CF12A0E2386AB5400B2A09F /* Assets.xcassets in Resources */,
+				5C8F78592388594D00FC70EE /* Nunito-SemiBold.ttf in Resources */,
+				5C8F7864238867E100FC70EE /* AboutHerTableViewCell.xib in Resources */,
+				5C8F78542388594D00FC70EE /* FiraSans-Medium.ttf in Resources */,
+				5C7D20BE2386ACE9005318B1 /* Main.storyboard in Resources */,
+				5C8F78602388594D00FC70EE /* FiraSans-Regular.ttf in Resources */,
+				5C8F785D2388594D00FC70EE /* FiraSans-SemiBold.ttf in Resources */,
+				5C8F785F2388594D00FC70EE /* FiraSansExtraCondensed-Regular.ttf in Resources */,
+				5C8F785C2388594D00FC70EE /* Nunito-SemiBoldItalic.ttf in Resources */,
+				5C8F78532388594D00FC70EE /* FiraSansCondensed-Regular.ttf in Resources */,
+				5C8F785B2388594D00FC70EE /* Nunito-Black.ttf in Resources */,
+				5C8F78522388594D00FC70EE /* PaytoneOne-Regular.ttf in Resources */,
+				5C8F785E2388594D00FC70EE /* Nunito-Italic.ttf in Resources */,
+				5C8F785A2388594D00FC70EE /* Nunito-Bold.ttf in Resources */,
+				5C8F78562388594D00FC70EE /* Nunito-ExtraBold.ttf in Resources */,
+				5C8F786823886B6700FC70EE /* InterestsTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4500E4AA2F0EC990A8DA3877 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DatingApp/Pods-DatingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DatingApp/Pods-DatingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DatingApp/Pods-DatingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53E44F3E0BB52BB22DDE386A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DatingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CF129FD2386AB5300B2A09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF12A092386AB5300B2A09F /* HomeViewController.swift in Sources */,
+				5CF12A052386AB5300B2A09F /* AppDelegate.swift in Sources */,
+				5CF12A072386AB5300B2A09F /* SceneDelegate.swift in Sources */,
+				5C8F786A23886D6D00FC70EE /* CustomView.swift in Sources */,
+				5C8F786723886B6700FC70EE /* InterestsTableViewCell.swift in Sources */,
+				5C8F7863238867E100FC70EE /* AboutHerTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CF12A0F2386AB5400B2A09F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF12A102386AB5400B2A09F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CF12A132386AB5400B2A09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CF12A142386AB5400B2A09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CF12A162386AB5400B2A09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC4651CE539B2C33C7E09462 /* Pods-DatingApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6A4DNKAZ6;
+				INFOPLIST_FILE = "$(SRCROOT)/DatingApp/Utilities/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Minds.DatingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CF12A172386AB5400B2A09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B57B23DD1A4D07D4E8EC0F0C /* Pods-DatingApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6A4DNKAZ6;
+				INFOPLIST_FILE = "$(SRCROOT)/DatingApp/Utilities/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Minds.DatingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CF129FC2386AB5200B2A09F /* Build configuration list for PBXProject "DatingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF12A132386AB5400B2A09F /* Debug */,
+				5CF12A142386AB5400B2A09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF12A152386AB5400B2A09F /* Build configuration list for PBXNativeTarget "DatingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF12A162386AB5400B2A09F /* Debug */,
+				5CF12A172386AB5400B2A09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CF129F92386AB5200B2A09F /* Project object */;
+}

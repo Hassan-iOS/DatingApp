@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FiraSans-Regular.ttf">
+            <string>FiraSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="AboutHerTableViewCell" rowHeight="120" id="KGk-i7-Jjw" customClass="AboutHerTableViewCell" customModule="DatingApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="328" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="328" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3jG-8t-ANj">
+                        <rect key="frame" x="0.0" y="0.0" width="328" height="108"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Product designer by day,Animal lover" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ojp-Pv-tqG">
+                                <rect key="frame" x="20" y="50" width="288" height="48"/>
+                                <fontDescription key="fontDescription" name="FiraSans-Regular" family="Fira Sans" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="About Her" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EeC-Dz-5x5">
+                                <rect key="frame" x="20" y="20" width="91.5" height="24"/>
+                                <fontDescription key="fontDescription" name="FiraSans-Regular" family="Fira Sans" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Ojp-Pv-tqG" firstAttribute="leading" secondItem="EeC-Dz-5x5" secondAttribute="leading" id="6sH-et-KOr"/>
+                            <constraint firstItem="Ojp-Pv-tqG" firstAttribute="top" secondItem="EeC-Dz-5x5" secondAttribute="bottom" constant="20" id="KGU-Tj-RjY"/>
+                            <constraint firstItem="EeC-Dz-5x5" firstAttribute="leading" secondItem="3jG-8t-ANj" secondAttribute="leading" constant="20" id="XRE-L1-moU"/>
+                            <constraint firstAttribute="trailing" secondItem="Ojp-Pv-tqG" secondAttribute="trailing" constant="20" id="gfM-Uj-geT"/>
+                            <constraint firstItem="EeC-Dz-5x5" firstAttribute="top" secondItem="3jG-8t-ANj" secondAttribute="top" constant="20" id="gjX-ZQ-U0p"/>
+                            <constraint firstAttribute="bottom" secondItem="Ojp-Pv-tqG" secondAttribute="bottom" constant="10" id="ye8-Za-OZQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="3jG-8t-ANj" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="3sK-xF-W9R"/>
+                    <constraint firstItem="3jG-8t-ANj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="GLG-kS-Riv"/>
+                    <constraint firstItem="3jG-8t-ANj" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.9" id="heu-hZ-Qch"/>
+                    <constraint firstItem="3jG-8t-ANj" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="p8O-ED-cJV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="containerView" destination="3jG-8t-ANj" id="Dos-uk-vJY"/>
+            </connections>
+            <point key="canvasLocation" x="142.02898550724638" y="107.14285714285714"/>
+        </tableViewCell>
+    </objects>
+</document>

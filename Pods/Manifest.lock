@@ -1,0 +1,22 @@
+PODS:
+  - IBAnimatable (6.0.0)
+  - ImageSlideshow (1.8.1):
+    - ImageSlideshow/Core (= 1.8.1)
+  - ImageSlideshow/Core (1.8.1)
+
+DEPENDENCIES:
+  - IBAnimatable
+  - ImageSlideshow (~> 1.8.1)
+
+SPEC REPOS:
+  trunk:
+    - IBAnimatable
+    - ImageSlideshow
+
+SPEC CHECKSUMS:
+  IBAnimatable: d49f9fee0c401b5b08d31b77256b77fb067e0e92
+  ImageSlideshow: 634865d7d4e96f21e3830a31b51bde768cc94cea
+
+PODFILE CHECKSUM: 600e41cc691f6fd5da4d02e89a391795f5abf893
+
+COCOAPODS: 1.8.4
